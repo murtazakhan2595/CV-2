@@ -1,0 +1,53 @@
+/* Media queries for responsiveness */
+
+@media(max-width:680px) {
+
+    .top-cloud {
+        visibility: hidden;
+    }
+
+    body {
+        max-width: 100%;   
+    }
+    .mountain{
+        width: 550px;
+    }
+    .bottom-cloud{
+        left: 100px;
+        
+    }
+    .murtazaProfile{
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    .intro{
+        width: 80%;
+    }
+    .skill-row {
+        margin: 50px auto 50px auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .skillsTitle {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .skill-row .skill-img {
+        flex: 0 0 100%;
+            max-width: 100%;
+    }
+    .skill-row p{
+            flex: 0 0 100%;
+    max-width: 100%;
+    }
+                .skill-row {
+                    flex-direction: column-reverse;
+                }
+
+                                .skill-row :nth-child(1) {
+                                    margin-right: 0px;
+                                }
+}
+
